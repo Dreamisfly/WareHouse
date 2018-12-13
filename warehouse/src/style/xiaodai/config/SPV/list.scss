@@ -1,0 +1,40 @@
+.xiaodai-config-spv-main {
+  background: #fff;
+  border-top: solid 2px #dee5e7;
+  border-left: solid 1px #e7eaec;
+  border-right: solid 1px #e7eaec;
+  border-bottom: solid 1px #e7eaec;
+  border-radius: 5px;
+  height: calc(100vh);
+  padding: 0 20px;
+
+
+  .xiaodai-config-spv-body {
+    padding-top: 10px;
+  }
+  .xiaodai-config-spv-footer {
+    padding-top: 10px;
+    .el-pagination {
+      float: right;
+    }
+  }
+}
+.xiaodai-config-spv-header {
+  background: #fff;
+  border-top: solid 2px #dee5e7;
+  border-left: solid 1px #e7eaec;
+  border-right: solid 1px #e7eaec;
+  border-bottom: solid 1px #e7eaec;
+  border-radius: 5px;
+  height: 50px;
+  padding: 0 20px;
+  margin-bottom: 15px;
+
+  line-height: 50px;
+  .xiaodai-config-spv-btn {
+    float: left;
+  }
+  .xiaodai-config-spv-search {
+    float: right;
+  }
+}

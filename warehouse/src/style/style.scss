@@ -1,0 +1,165 @@
+@import "style/myicon/iconfont.css";
+
+@import "system/user/list";
+@import "xiaodai/config/SPV/list";
+
+/*@import "client/agency";
+@import "client/addagency";
+@import "client/client";
+@import "client/addclient";*/
+/*@import "stat/hour";
+@import "stat/day";
+@import "stat/geo";
+@import "report/hour";
+@import "report/day";
+@import "report/geo";*/
+
+@import "login";
+
+body{
+	margin: 0;
+}
+#app {
+  /*min-width: 1200px;*/
+  margin: 0 auto;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+.admin-logo {
+	max-width: 200px;
+	min-width: 65px;
+	height: 50px;
+	text-align: center;
+	text-shadow: 5px 4px 4px #000;
+	line-height: 100px;
+	color: #fff;
+	font-size: 25px;
+	background-image: url("./style/logo.png");
+	background-repeat: no-repeat;
+	background-size: 190px;
+}
+.menu-btn {
+	text-align: center;
+	background: #19a9d5;
+	color: #fff;
+}
+/* 主内容区 */
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+  width: 190px;
+  min-height: 400px;
+}
+.el-menu {
+	border-right: solid 0px #e6e6e6; 
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding-left: 0;
+    background-color: #1e2d38;
+}
+.el-submenu .el-menu-item {
+	height: 50px;
+    line-height: 50px;
+    padding: 0 45px;
+    min-width: 178px;
+}
+.is-opened {
+	border-left: solid 4px #19a9d5;
+	background: #131e26;
+}
+.is-opened .el-menu-item {
+	background: #131e26;
+}
+.right-header-btn {
+	float: left;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.menu-left {
+	float: left;
+	height: calc(100vh);
+	background: #1e2d38;
+}
+.right-header {
+	height: 50px;
+	border-bottom: solid 1px #d0d3d5;
+	background: #fff;
+}
+.header-title {
+	height: 50px;
+	width: 16%;
+	color: #357bb7;
+	margin-left: 20px;
+	line-height: 50px;
+	font-size: 13px;
+	float: left;
+}
+.header-menu {
+	float: right;
+	width: 20%;
+	height: 50px;
+	color: #999c9e;
+	line-height: 50px;
+	/*font-weight: bold;*/
+}
+.header-menu i {
+	margin-right: 20px;
+	font-size: 13px;
+}
+.right-body {
+	overflow-y: auto;
+	height: calc(100vh - 92px);
+	padding: 20px;
+	border-top: solid 1px #dee5e7;
+}
+.content-container {
+    background: #f0f3f4;
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: 1px;
+    /*height: calc(100vh);*/
+    .content-wrapper {
+        background-color: #fff;
+        box-sizing: border-box;
+        background: #f0f3f4;
+    }
+}
+.warp {
+	/*max-width: 200px;
+	min-width: 65px;*/
+	height: 100px;
+	text-align: center;
+	text-shadow: 5px 4px 4px #000;
+	line-height: 100px;
+	color: #fff;
+	font-size: 30px;
+}
+
+
+.avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .avatar-uploader .el-upload:hover {
+    border-color: #20a0ff;
+  }
+  .avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+  }
+  .avatar {
+    max-width: 300px;
+    max-height: 200px;
+    display: block;
+  }
+
+

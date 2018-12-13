@@ -1,0 +1,29 @@
+.agency-main {
+	background: #fff;
+	border-top: solid 2px #dee5e7;
+	border-left: solid 1px #e7eaec;
+	border-right: solid 1px #e7eaec;
+	border-bottom: solid 1px #e7eaec;
+	border-radius: 5px;
+	height: calc(100vh);
+	padding: 0 20px;
+
+	.header {
+		padding-top: 10px;
+		.btn {
+			float: left;
+		}
+		.search {
+			float: right;
+		}
+	}
+	.agency-body {
+		padding-top: 50px;
+	}
+	.agency-footer {
+		padding-top: 10px;
+		.el-pagination {
+			float: right;
+		}
+	}
+}
